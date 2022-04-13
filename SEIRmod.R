@@ -62,5 +62,5 @@ epi <- epidemic %>%
 
 ggplot(epi) + geom_line(aes(x=time, y=Counts, col=State))
 
-
+ggplot(epidemic)+geom_line(aes(x=time, y=epidemic$V))
 
